@@ -1,0 +1,150 @@
+﻿Build started 12.03.2017 16:48:48.
+     1>Project "Z:\Algorithm\ConsoleApplication1\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): error C2146: syntax error: missing ';' before identifier 'predok'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(46): error C2923: 'std::stack': 'point' is not a valid template type argument for parameter '_Ty'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(47): error C2923: 'std::priority_queue': 'point' is not a valid template type argument for parameter '_Ty'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(53): error C2086: 'int point': redefinition
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(53): error C2146: syntax error: missing ';' before identifier 'up'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(53): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(53): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(59): error C2086: 'int point': redefinition
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(59): error C2146: syntax error: missing ';' before identifier 'down'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(59): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(59): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(64): error C2086: 'int point': redefinition
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(64): error C2146: syntax error: missing ';' before identifier 'left'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(64): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(64): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(69): error C2086: 'int point': redefinition
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(19): note: see declaration of 'point'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(69): error C2146: syntax error: missing ';' before identifier 'right'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(69): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(69): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(75): error C2146: syntax error: missing ')' before identifier 'p'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(75): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(75): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(94): error C2146: syntax error: missing ')' before identifier 'p'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(94): error C2143: syntax error: missing ';' before '{'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(94): error C2447: '{': missing function header (old-style formal list?)
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(116): error C2133: 'q': unknown size
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(116): error C2512: 'std::priority_queue': no appropriate default constructor available
+         c:\program files (x86)\microsoft visual studio 14.0\vc\include\queue(238): note: see declaration of 'std::priority_queue'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(117): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(117): error C2146: syntax error: missing ';' before identifier 'nullPoint'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(117): error C2065: 'nullPoint': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(120): error C2064: term does not evaluate to a function taking 3 arguments
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(120): error C3861: 'proverka': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(121): error C2064: term does not evaluate to a function taking 3 arguments
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(121): error C2663: 'std::priority_queue<_Ty,_Container,_Pr>::push': 2 overloads have no legal conversion for 'this' pointer
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(124): error C2662: 'bool std::priority_queue<_Ty,_Container,_Pr>::empty(void) const': cannot convert 'this' pointer from 'POINTQUEUE' to 'const std::priority_queue<_Ty,_Container,_Pr> &'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(124): note: Reason: cannot convert from 'POINTQUEUE' to 'const std::priority_queue<_Ty,_Container,_Pr>'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(124): note: Conversion requires a second user-defined-conversion operator or constructor
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(126): error C2146: syntax error: missing ';' before identifier 'p'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(126): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(126): error C2662: '_Container::const_reference std::priority_queue<_Ty,_Container,_Pr>::top(void) const': cannot convert 'this' pointer from 'POINTQUEUE' to 'const std::priority_queue<_Ty,_Container,_Pr> &'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(126): note: Reason: cannot convert from 'POINTQUEUE' to 'const std::priority_queue<_Ty,_Container,_Pr>'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(126): note: Conversion requires a second user-defined-conversion operator or constructor
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(127): error C2662: 'void std::priority_queue<_Ty,_Container,_Pr>::pop(void)': cannot convert 'this' pointer from 'POINTQUEUE' to 'std::priority_queue<_Ty,_Container,_Pr> &'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(127): note: Reason: cannot convert from 'POINTQUEUE' to 'std::priority_queue<_Ty,_Container,_Pr>'
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(127): note: Conversion requires a second user-defined-conversion operator or constructor
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(128): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(128): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(128): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(128): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(128): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(129): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(129): error C3861: 'printStack': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(134): error C2146: syntax error: missing ';' before identifier 'tmp'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(134): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(135): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(135): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(136): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(136): error C3861: 'up': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(136): error C2065: 'nullPoint': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(137): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(137): error C3861: 'proverka': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2228: left of '.kol' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(138): error C2663: 'std::priority_queue<_Ty,_Container,_Pr>::push': 2 overloads have no legal conversion for 'this' pointer
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): error C2065: 'predok': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(139): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(144): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(144): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(145): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(145): error C3861: 'down': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(145): error C2065: 'nullPoint': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(146): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(146): error C3861: 'proverka': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2228: left of '.kol' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(147): error C2663: 'std::priority_queue<_Ty,_Container,_Pr>::push': 2 overloads have no legal conversion for 'this' pointer
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): error C2065: 'predok': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(148): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(153): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(153): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(154): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(154): error C2065: 'nullPoint': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(155): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(155): error C3861: 'proverka': identifier not found
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2228: left of '.kol' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(156): error C2663: 'std::priority_queue<_Ty,_Container,_Pr>::push': 2 overloads have no legal conversion for 'this' pointer
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): error C2065: 'predok': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): error C2228: left of '.x' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): error C2228: left of '.y' must have class/struct/union
+         z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): note: type is 'unknown-type'
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(157): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(161): error C2065: 'tmp': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(161): error C2065: 'p': undeclared identifier
+     1>z:\algorithm\consoleapplication1\consoleapplication3\source.cpp(161): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "Z:\Algorithm\ConsoleApplication1\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68
